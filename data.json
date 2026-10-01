@@ -1,0 +1,2777 @@
+{
+  "players": [
+    {
+      "id": "153524531",
+      "name": "Patrick",
+      "oldNames": [],
+      "rank": "R5",
+      "order": 76
+    },
+    {
+      "id": "153065582",
+      "name": "V A S I L I S",
+      "oldNames": [
+        "XXX"
+      ],
+      "rank": "R4",
+      "left": false,
+      "order": 9
+    },
+    {
+      "id": "152591538",
+      "name": "Tzimakas",
+      "oldNames": [],
+      "rank": "R4",
+      "order": 13
+    },
+    {
+      "id": "151198362",
+      "name": "LFQ",
+      "oldNames": [],
+      "rank": "R4",
+      "order": 65
+    },
+    {
+      "id": "154461769",
+      "name": "Pentagram",
+      "oldNames": [],
+      "rank": "R4",
+      "order": 55
+    },
+    {
+      "id": "154720900",
+      "name": "Drazork",
+      "oldNames": [],
+      "rank": "",
+      "left": false,
+      "order": 26
+    },
+    {
+      "id": "151935704",
+      "name": "HellishZero",
+      "oldNames": [],
+      "rank": "",
+      "left": false,
+      "order": 33
+    },
+    {
+      "id": "147021451",
+      "name": "Babs",
+      "oldNames": [],
+      "rank": "R4",
+      "order": 79
+    },
+    {
+      "id": "152476126",
+      "name": "BuzzyBee",
+      "oldNames": [],
+      "rank": "R4",
+      "order": 109
+    },
+    {
+      "id": "157150228",
+      "name": "Thanos_D",
+      "oldNames": [],
+      "rank": "",
+      "order": 114,
+      "left": true
+    },
+    {
+      "id": "152706108",
+      "name": "Suhaib",
+      "oldNames": [],
+      "rank": "",
+      "order": 1
+    },
+    {
+      "id": "143458643",
+      "name": "Sweman",
+      "oldNames": [],
+      "rank": "",
+      "order": 23
+    },
+    {
+      "id": "77823819",
+      "name": "AMG Hammer",
+      "oldNames": [],
+      "rank": "",
+      "order": 101,
+      "left": true
+    },
+    {
+      "id": "152197526",
+      "name": "Mburumbu",
+      "oldNames": [],
+      "rank": "",
+      "order": 2
+    },
+    {
+      "id": "158000637",
+      "name": "Maximus Slay",
+      "oldNames": [],
+      "rank": "",
+      "order": 3
+    },
+    {
+      "id": "152279527",
+      "name": "DrZdrowko",
+      "oldNames": [],
+      "rank": "",
+      "order": 4
+    },
+    {
+      "id": "162408116",
+      "name": "Meee",
+      "oldNames": [],
+      "rank": "R4",
+      "left": false,
+      "order": 14
+    },
+    {
+      "id": "153819767",
+      "name": "Chat88",
+      "oldNames": [],
+      "rank": "",
+      "order": 5
+    },
+    {
+      "id": "160458305",
+      "name": "hell yea brother",
+      "oldNames": [],
+      "rank": "",
+      "order": 6
+    },
+    {
+      "id": "151755311",
+      "name": "Smenz",
+      "oldNames": [],
+      "rank": "",
+      "order": 7
+    },
+    {
+      "id": "151247221",
+      "name": "Signo",
+      "oldNames": [],
+      "rank": "",
+      "order": 8
+    },
+    {
+      "id": "155201587",
+      "name": "LL_H4D3S",
+      "oldNames": [],
+      "rank": "R4",
+      "left": false,
+      "order": 54
+    },
+    {
+      "id": "153934293",
+      "name": "Hany",
+      "oldNames": [
+        "meshal"
+      ],
+      "rank": "",
+      "order": 10,
+      "left": false
+    },
+    {
+      "id": "151820987",
+      "name": "Kaladin",
+      "oldNames": [],
+      "rank": "",
+      "order": 12
+    },
+    {
+      "id": "151652492",
+      "name": "justme",
+      "oldNames": [],
+      "rank": "",
+      "order": 11
+    },
+    {
+      "id": "159278877",
+      "name": "Raven",
+      "oldNames": [],
+      "rank": "",
+      "order": 20
+    },
+    {
+      "id": "154327826",
+      "name": "yong",
+      "oldNames": [],
+      "rank": "",
+      "order": 15
+    },
+    {
+      "id": "151086540",
+      "name": "Jeez",
+      "oldNames": [],
+      "rank": "",
+      "order": 17
+    },
+    {
+      "id": "56417605",
+      "name": "Kozy",
+      "oldNames": [],
+      "rank": "",
+      "order": 16
+    },
+    {
+      "id": "84026653",
+      "name": "Mr69",
+      "oldNames": [],
+      "rank": "",
+      "order": 22
+    },
+    {
+      "id": "66014916",
+      "name": "i'm a Angel",
+      "oldNames": [],
+      "rank": "",
+      "order": 21
+    },
+    {
+      "id": "109752626",
+      "name": "MarkoPolo 69",
+      "oldNames": [],
+      "rank": "",
+      "order": 19
+    },
+    {
+      "id": "151833236",
+      "name": "Fro1ic",
+      "oldNames": [],
+      "rank": "",
+      "order": 34
+    },
+    {
+      "id": "125216881",
+      "name": "wyrm",
+      "oldNames": [],
+      "rank": "",
+      "order": 30
+    },
+    {
+      "id": "163375126",
+      "name": "punchdrunk",
+      "oldNames": [],
+      "rank": "",
+      "order": 27
+    },
+    {
+      "id": "153953884",
+      "name": "Rayleigh",
+      "oldNames": [
+        "Lord Freedom"
+      ],
+      "rank": "",
+      "left": false,
+      "order": 35
+    },
+    {
+      "id": "153618677",
+      "name": "H29",
+      "oldNames": [
+        "Hany29"
+      ],
+      "rank": "",
+      "order": 31,
+      "left": false
+    },
+    {
+      "id": "154724292",
+      "name": "LUKAS",
+      "oldNames": [],
+      "rank": "",
+      "order": 37
+    },
+    {
+      "id": "151362263",
+      "name": "TheProblema77",
+      "oldNames": [
+        "JOKER666"
+      ],
+      "rank": "",
+      "left": false,
+      "order": 38
+    },
+    {
+      "id": "78262123",
+      "name": "Gilgamesh",
+      "oldNames": [],
+      "rank": "",
+      "order": 36
+    },
+    {
+      "id": "154282080",
+      "name": "ashfaq",
+      "oldNames": [],
+      "rank": "",
+      "order": 40
+    },
+    {
+      "id": "152509095",
+      "name": "snemil",
+      "oldNames": [],
+      "rank": "",
+      "order": 39
+    },
+    {
+      "id": "162103804",
+      "name": "Szunaj53",
+      "oldNames": [],
+      "rank": "",
+      "order": 41
+    },
+    {
+      "id": "159245999",
+      "name": "Lady Bramble",
+      "oldNames": [],
+      "rank": "",
+      "order": 43
+    },
+    {
+      "id": "156705545",
+      "name": "THE HELMSMAN",
+      "oldNames": [],
+      "rank": "",
+      "order": 45
+    },
+    {
+      "id": "151935625",
+      "name": "mda",
+      "oldNames": [],
+      "rank": "",
+      "order": 47
+    },
+    {
+      "id": "161411398",
+      "name": "BrazUs",
+      "oldNames": [],
+      "rank": "R4",
+      "left": false,
+      "order": 108
+    },
+    {
+      "id": "127688117",
+      "name": "JCW",
+      "oldNames": [],
+      "rank": "",
+      "order": 49
+    },
+    {
+      "id": "152968133",
+      "name": "TheHengus",
+      "oldNames": [],
+      "rank": "",
+      "order": 46
+    },
+    {
+      "id": "157085857",
+      "name": "Meow Mike",
+      "oldNames": [],
+      "rank": "",
+      "order": 48
+    },
+    {
+      "id": "151771350",
+      "name": "Strasni",
+      "oldNames": [],
+      "rank": "",
+      "order": 51
+    },
+    {
+      "id": "157892805",
+      "name": "Hartsod",
+      "oldNames": [],
+      "rank": "",
+      "order": 52
+    },
+    {
+      "id": "151853523",
+      "name": "Alfy c/o GoW",
+      "oldNames": [],
+      "rank": "",
+      "order": 53
+    },
+    {
+      "id": "154032578",
+      "name": "Sclam83",
+      "oldNames": [],
+      "rank": "",
+      "order": 56
+    },
+    {
+      "id": "153800416",
+      "name": "Crystal Mage",
+      "oldNames": [],
+      "rank": "",
+      "order": 50
+    },
+    {
+      "id": "161015418",
+      "name": "Pamster",
+      "oldNames": [],
+      "rank": "",
+      "order": 59
+    },
+    {
+      "id": "135423094",
+      "name": "WYCZESIK",
+      "oldNames": [],
+      "rank": "",
+      "order": 58
+    },
+    {
+      "id": "155114111",
+      "name": "Derek",
+      "oldNames": [],
+      "rank": "",
+      "order": 57
+    },
+    {
+      "id": "144077461",
+      "name": "INActive",
+      "oldNames": [],
+      "rank": "",
+      "order": 105,
+      "left": true
+    },
+    {
+      "id": "157591289",
+      "name": "Majkel",
+      "oldNames": [
+        "Okruch"
+      ],
+      "rank": "",
+      "left": false,
+      "order": 61
+    },
+    {
+      "id": "149797903",
+      "name": "SCIPIONE",
+      "oldNames": [],
+      "rank": "",
+      "order": 60
+    },
+    {
+      "id": "153590344",
+      "name": "lordjbtonytj",
+      "oldNames": [],
+      "rank": "",
+      "order": 111,
+      "left": true
+    },
+    {
+      "id": "162703235",
+      "name": "Old Gregg",
+      "oldNames": [],
+      "rank": "",
+      "order": 62
+    },
+    {
+      "id": "154098008",
+      "name": "Kasajaka",
+      "oldNames": [],
+      "rank": "",
+      "order": 63
+    },
+    {
+      "id": "156034302",
+      "name": "Peaceful",
+      "oldNames": [],
+      "rank": "",
+      "order": 67
+    },
+    {
+      "id": "164307464",
+      "name": "Cs12lord",
+      "oldNames": [],
+      "rank": "",
+      "order": 64
+    },
+    {
+      "id": "95434194",
+      "name": "Datura",
+      "oldNames": [],
+      "rank": "",
+      "order": 68
+    },
+    {
+      "id": "151411924",
+      "name": "Mezo977",
+      "oldNames": [],
+      "rank": "",
+      "order": 66
+    },
+    {
+      "id": "153966979",
+      "name": "Mrven",
+      "oldNames": [],
+      "rank": "",
+      "order": 112,
+      "left": true
+    },
+    {
+      "id": "152853291",
+      "name": "Rabbit Striker",
+      "oldNames": [],
+      "rank": "",
+      "order": 73
+    },
+    {
+      "id": "153049583",
+      "name": "Antonio Macedon",
+      "oldNames": [],
+      "rank": "",
+      "order": 71
+    },
+    {
+      "id": "154425996",
+      "name": "_Agent_K_",
+      "oldNames": [],
+      "rank": "",
+      "order": 72
+    },
+    {
+      "id": "155147931",
+      "name": "SHARK",
+      "oldNames": [],
+      "rank": "",
+      "order": 74
+    },
+    {
+      "id": "154802797",
+      "name": "Gwilla",
+      "oldNames": [],
+      "rank": "",
+      "order": 75
+    },
+    {
+      "id": "152345019",
+      "name": "Aboalzeen00#f2p#",
+      "oldNames": [],
+      "rank": "",
+      "order": 77
+    },
+    {
+      "id": "154214401",
+      "name": "Sadisths",
+      "oldNames": [],
+      "rank": "",
+      "order": 81
+    },
+    {
+      "id": "151546156",
+      "name": "Eravier",
+      "oldNames": [],
+      "rank": "",
+      "order": 82
+    },
+    {
+      "id": "152885407",
+      "name": "JoshTG100",
+      "oldNames": [],
+      "rank": "",
+      "order": 83
+    },
+    {
+      "id": "152492338",
+      "name": "Abhi",
+      "oldNames": [],
+      "rank": "",
+      "order": 84
+    },
+    {
+      "id": "157731763",
+      "name": "GK",
+      "oldNames": [],
+      "rank": "",
+      "order": 78
+    },
+    {
+      "id": "160097732",
+      "name": "gale",
+      "oldNames": [],
+      "rank": "",
+      "order": 86
+    },
+    {
+      "id": "167680267",
+      "name": "SABIO SEI",
+      "oldNames": [],
+      "rank": "",
+      "order": 85
+    },
+    {
+      "id": "148156952",
+      "name": "Borys 80",
+      "oldNames": [],
+      "rank": "",
+      "order": 103,
+      "left": true
+    },
+    {
+      "id": "152148288",
+      "name": "zeynep123",
+      "oldNames": [],
+      "rank": "",
+      "order": 88
+    },
+    {
+      "id": "159459531",
+      "name": "EN SABAN NUR",
+      "oldNames": [],
+      "rank": "",
+      "order": 87,
+      "left": false
+    },
+    {
+      "id": "147161795",
+      "name": "Rose",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 113
+    },
+    {
+      "id": "152132183",
+      "name": "Kortez von Serb",
+      "oldNames": [],
+      "rank": "",
+      "order": 89
+    },
+    {
+      "id": "135725055",
+      "name": "Δον Ντιεγκο/Don Diego",
+      "oldNames": [],
+      "rank": "",
+      "order": 90
+    },
+    {
+      "id": "160262224",
+      "name": "Bats",
+      "oldNames": [],
+      "rank": "",
+      "order": 92
+    },
+    {
+      "id": "162752470",
+      "name": "EEE",
+      "oldNames": [],
+      "rank": "",
+      "order": 104,
+      "left": true
+    },
+    {
+      "id": "156280228",
+      "name": "MeRco",
+      "oldNames": [],
+      "rank": "",
+      "order": 91
+    },
+    {
+      "id": "151099809",
+      "name": "Remix",
+      "oldNames": [],
+      "rank": "",
+      "order": 94
+    },
+    {
+      "id": "164320240",
+      "name": "NinjaNoodle",
+      "oldNames": [],
+      "rank": "",
+      "order": 93
+    },
+    {
+      "id": "153164232",
+      "name": "Feanor",
+      "oldNames": [],
+      "rank": "",
+      "order": 95
+    },
+    {
+      "id": "163913888",
+      "name": "Romeo",
+      "oldNames": [],
+      "rank": "",
+      "order": 97
+    },
+    {
+      "id": "148823245",
+      "name": "Heiachi59",
+      "oldNames": [],
+      "rank": "",
+      "order": 96
+    },
+    {
+      "id": "152885595",
+      "name": "K1an",
+      "oldNames": [],
+      "rank": "",
+      "order": 107,
+      "left": true
+    },
+    {
+      "id": "160475288",
+      "name": "TYRA",
+      "oldNames": [],
+      "rank": "",
+      "order": 115,
+      "left": true
+    },
+    {
+      "id": "161261571",
+      "name": "lordAura123",
+      "oldNames": [
+        "lordmads123"
+      ],
+      "rank": "",
+      "order": 100
+    },
+    {
+      "id": "159803437",
+      "name": "PsychoBear",
+      "oldNames": [],
+      "rank": "",
+      "order": 99
+    },
+    {
+      "id": "154786531",
+      "name": "egnaro",
+      "oldNames": [],
+      "rank": "",
+      "order": 80
+    },
+    {
+      "id": "151017767",
+      "name": "κωνσταντινος/Konstantinos",
+      "oldNames": [],
+      "rank": "",
+      "order": 116,
+      "left": true
+    },
+    {
+      "id": "11946706",
+      "name": "Peachy",
+      "oldNames": [],
+      "rank": "",
+      "order": 24
+    },
+    {
+      "id": "153363591",
+      "name": "Baby Jeez",
+      "oldNames": [],
+      "rank": "",
+      "order": 28
+    },
+    {
+      "id": "127129723",
+      "name": "AnnanikA",
+      "oldNames": [],
+      "rank": "",
+      "order": 25
+    },
+    {
+      "id": "148680533",
+      "name": "LYLA",
+      "oldNames": [],
+      "rank": "",
+      "order": 44
+    },
+    {
+      "id": "111456622",
+      "name": "Echalon",
+      "oldNames": [],
+      "rank": "",
+      "order": 69
+    },
+    {
+      "id": "125482666",
+      "name": "Riela",
+      "oldNames": [],
+      "rank": "",
+      "order": 98
+    },
+    {
+      "id": "163286509",
+      "name": "Mimi",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 70
+    },
+    {
+      "id": "147512598",
+      "name": "The GreenHornet",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 102
+    },
+    {
+      "id": "154083509",
+      "name": "Fetty",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 29
+    },
+    {
+      "id": "152000978",
+      "name": "Tora Tora Tora",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 106
+    },
+    {
+      "id": "17847341",
+      "name": "DARK JUDEX",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 18
+    },
+    {
+      "id": "153262464",
+      "name": "Ignite 44",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 42
+    },
+    {
+      "id": "157738474",
+      "name": "Veritas",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 110
+    },
+    {
+      "id": "153967222",
+      "name": "GDL",
+      "oldNames": [],
+      "rank": "",
+      "left": true,
+      "order": 32
+    }
+  ],
+  "events": [
+    {
+      "id": "e1790279013275",
+      "type": "Tri-Alliance",
+      "date": "2026-09-05",
+      "t1": "19:00",
+      "t2": "14:00",
+      "entries": {
+        "17847341": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "77823819": {
+          "mark": "",
+          "comment": ""
+        },
+        "147021451": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed",
+          "mark": "",
+          "comment": ""
+        },
+        "147161795": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "147512598": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "showed"
+        },
+        "148823245": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "149797903": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151099809": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "151198362": {
+          "legion": "L1",
+          "status": "abstain"
+        },
+        "151247221": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151362263": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151411924": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "151546156": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "151652492": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151755311": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151771350": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151820987": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151833236": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151853523": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151935625": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151935704": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked",
+          "mark": "",
+          "comment": ""
+        },
+        "152000978": {
+          "legion": "L2",
+          "status": "added",
+          "att": "noshow"
+        },
+        "152132183": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "152148288": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152197526": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152279527": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152345019": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "152476126": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152492338": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow",
+          "mark": "",
+          "comment": ""
+        },
+        "152509095": {
+          "legion": "L1",
+          "status": "abstain"
+        },
+        "152591538": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152706108": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152853291": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "152885407": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "showed"
+        },
+        "152885595": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "152968133": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "153049583": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153065582": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153164232": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153262464": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153524531": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed",
+          "mark": "",
+          "comment": "",
+          "flex": false
+        },
+        "153618677": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153800416": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153819767": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153934293": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153953884": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "154032578": {
+          "legion": "L1",
+          "status": "abstain",
+          "att": "excused"
+        },
+        "154083509": {
+          "legion": "L2",
+          "status": "added",
+          "att": "noshow"
+        },
+        "154282080": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154327826": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "154425996": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "showed"
+        },
+        "154461769": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154720900": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "154724292": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154786531": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "154802797": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "locked"
+        },
+        "155147931": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "155201587": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "156034302": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "showed"
+        },
+        "156280228": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "156705545": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157085857": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "157150228": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "showed"
+        },
+        "157591289": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157731763": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157738474": {
+          "legion": "L1",
+          "status": "abstain"
+        },
+        "157892805": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "158000637": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "159245999": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "locked"
+        },
+        "159278877": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "159459531": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "159803437": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "160097732": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "160475288": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "161261571": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "161411398": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162103804": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162408116": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162703235": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162752470": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "163286509": {
+          "legion": "L2",
+          "status": "added",
+          "att": "noshow"
+        },
+        "163375126": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "locked"
+        },
+        "163913888": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "164320240": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "167680267": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        }
+      }
+    },
+    {
+      "id": "e1790356809290",
+      "type": "Swordland Showdown",
+      "date": "2026-09-06",
+      "t1": "19:00",
+      "t2": "14:00",
+      "entries": {
+        "17847341": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "147021451": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed",
+          "mark": "",
+          "comment": "comment comment very good leader lets see if it can be tooo long"
+        },
+        "147161795": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "147512598": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "showed"
+        },
+        "148156952": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "149797903": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "151099809": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "151198362": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151247221": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151362263": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "151411924": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "151546156": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151652492": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151755311": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151771350": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151820987": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151833236": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151853523": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151935625": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151935704": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "152000978": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "152132183": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "152148288": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152197526": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152279527": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152345019": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "152476126": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152492338": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "locked"
+        },
+        "152509095": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "152591538": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152706108": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152853291": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152968133": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153049583": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153065582": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153164232": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "153262464": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153524531": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153618677": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153800416": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153819767": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153934293": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153953884": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153967222": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "154032578": {
+          "legion": "L1",
+          "status": "abstain",
+          "att": ""
+        },
+        "154282080": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "154327826": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "154425996": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "154461769": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154720900": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "154724292": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154786531": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "154802797": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "155147931": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "155201587": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "156034302": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "156280228": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "156705545": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157085857": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "157150228": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "157591289": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157731763": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157738474": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "157892805": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "showed"
+        },
+        "158000637": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "159278877": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "159459531": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "159803437": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "160097732": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "160475288": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "161261571": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "161411398": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162103804": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162408116": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162703235": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "locked"
+        },
+        "162752470": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "163286509": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "163375126": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "163913888": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "164320240": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "167680267": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        }
+      }
+    },
+    {
+      "id": "e1790359760321",
+      "type": "Swordland Showdown",
+      "date": "2026-09-20",
+      "t1": "19:00",
+      "t2": "14:00",
+      "entries": {
+        "56417605": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "66014916": {
+          "legion": "L1",
+          "status": "abstain",
+          "att": ""
+        },
+        "77823819": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "78262123": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "84026653": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "109752626": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "125216881": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "127688117": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "135423094": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "135725055": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "143458643": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "144077461": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "147021451": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "147161795": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "149797903": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151017767": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "151086540": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151099809": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "151198362": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151247221": {
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "locked"
+        },
+        "151362263": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151546156": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "151652492": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151755311": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151771350": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151820987": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151833236": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151853523": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151935625": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151935704": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152148288": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "152197526": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152279527": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152476126": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152492338": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "152509095": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "noshow"
+        },
+        "152591538": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152706108": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "152853291": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152968133": {
+          "legion": "L2",
+          "status": "full",
+          "att": "excused"
+        },
+        "153049583": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153065582": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153164232": {
+          "legion": "L2",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "153524531": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "153618677": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153800416": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153819767": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "153934293": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "153953884": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "154032578": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "154214401": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "154282080": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154327826": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "154461769": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154724292": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154786531": {
+          "legion": "L1",
+          "status": "withdrew",
+          "att": ""
+        },
+        "154802797": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "155114111": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "noshow",
+          "mark": "",
+          "comment": ""
+        },
+        "155147931": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "155201587": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "156034302": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "156280228": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
+        },
+        "156705545": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157085857": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "157150228": {
+          "legion": "L2",
+          "status": "full",
+          "att": "noshow"
+        },
+        "157731763": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157892805": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "showed"
+        },
+        "158000637": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "159245999": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "159278877": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "159459531": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed",
+          "mark": "",
+          "comment": ""
+        },
+        "160097732": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "160475288": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        },
+        "161411398": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162103804": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162408116": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "162703235": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "163375126": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "163913888": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "164307464": {
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked",
+          "mark": "",
+          "comment": ""
+        },
+        "164320240": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "167680267": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "noshow"
+        }
+      }
+    },
+    {
+      "id": "e1790752662114",
+      "type": "Tri-Alliance",
+      "date": "2026-10-03",
+      "t1": "19:00",
+      "t2": "14:00",
+      "entries": {
+        "11946706": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "56417605": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "66014916": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "78262123": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "84026653": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "95434194": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "109752626": {
+          "legion": "L1",
+          "status": "full",
+          "flex": true
+        },
+        "111456622": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "125216881": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "125482666": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "127129723": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "127688117": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "135423094": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "135725055": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "143458643": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "147021451": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "149797903": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151086540": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151099809": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "151198362": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151247221": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151362263": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151652492": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151755311": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151771350": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151820987": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151833236": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151935625": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151935704": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "152132183": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "152148288": {
+          "legion": "L2",
+          "status": "full",
+          "flex": true
+        },
+        "152197526": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "152476126": {
+          "legion": "L1",
+          "status": "abstain",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "152591538": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "152706108": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "152853291": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "153049583": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "153065582": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153164232": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "153363591": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153524531": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153618677": {
+          "legion": "L1",
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "153800416": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153819767": {
+          "legion": "L2",
+          "status": "subUnsure"
+        },
+        "153934293": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "153953884": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "154032578": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "154214401": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "154327826": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "154720900": {
+          "legion": "L1",
+          "status": "subUnsure"
+        },
+        "154802797": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "155147931": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "155201587": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "156034302": {
+          "legion": "L1",
+          "status": "subUnsure"
+        },
+        "157085857": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "157731763": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "157892805": {
+          "legion": "L1",
+          "status": "abstain",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "158000637": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "159245999": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "159278877": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "159459531": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "160097732": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "160262224": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "160458305": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "161261571": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "161411398": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "162103804": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "162408116": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "163375126": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "163913888": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "164307464": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "164320240": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "167680267": {
+          "legion": "L2",
+          "status": "full"
+        }
+      }
+    },
+    {
+      "id": "e1790752698238",
+      "type": "Swordland Showdown",
+      "date": "2026-10-04",
+      "t1": "19:00",
+      "t2": "14:00",
+      "entries": {
+        "11946706": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "56417605": {
+          "legion": "L2",
+          "status": "full",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "66014916": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "78262123": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "84026653": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "95434194": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "109752626": {
+          "legion": "L1",
+          "status": "full",
+          "flex": true
+        },
+        "111456622": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "125216881": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "125482666": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "127129723": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "127688117": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "135423094": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "135725055": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "143458643": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "147021451": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "148680533": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "149797903": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151086540": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151099809": {
+          "legion": "L1",
+          "status": "full",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "151198362": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151247221": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151362263": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151546156": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "151652492": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151755311": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151771350": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151820987": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151833236": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "151853523": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151935625": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "151935704": {
+          "legion": "L1",
+          "status": "full",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "152148288": {
+          "flex": true,
+          "legion": "L2",
+          "status": "full"
+        },
+        "152197526": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "152476126": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "152509095": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "152591538": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "152853291": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153049583": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "153065582": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "153164232": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153363591": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153524531": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153618677": {
+          "legion": "L1",
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "153800416": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153819767": {
+          "legion": "L2",
+          "status": "subUnsure"
+        },
+        "153934293": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "153953884": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "154214401": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "154282080": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "154327826": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "154461769": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "154720900": {
+          "legion": "L1",
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "154802797": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "155147931": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "155201587": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "156034302": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "157731763": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "157892805": {
+          "legion": "L1",
+          "status": "abstain",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "159245999": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "159278877": {
+          "legion": "L2",
+          "status": "full"
+        },
+        "159459531": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "160097732": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "160458305": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "161261571": {
+          "legion": "L2",
+          "status": "full",
+          "flex": true
+        },
+        "161411398": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "162103804": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "162408116": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "163375126": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "163913888": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "164307464": {
+          "legion": "L1",
+          "status": "full"
+        },
+        "164320240": {
+          "legion": "L1",
+          "status": "subSure"
+        },
+        "167680267": {
+          "legion": "L2",
+          "status": "full"
+        }
+      }
+    }
+  ]
+}

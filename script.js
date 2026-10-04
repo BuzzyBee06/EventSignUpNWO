@@ -66,6 +66,70 @@ function tip(list, missed) {
   const n = k => list.filter(x => x === k).length;
   return `Based on ${list.length} event${list.length === 1 ? '' : 's'}: ${n(1)} showed, ${n(0)} no-show` + (n(0.5) ? `, ${n(0.5)} locked out (half credit)` : '') + (missed ? `. No sign-up for ${missed} of the last 5 events (not held against them).` : '');
 }
+function decayedReliability(pid) {
+  let wSum = 0, pSum = 0, k = 0;
+  [...data.events].sort((a, b) => b.date.localeCompare(a.date)).forEach(ev => {
+    const e = ev.entries[pid];
+    const pts = e ? points(e) : null;
+    if (pts === null) return;
+    const w = Math.pow(0.85, k); k++;
+    wSum += w; pSum += w * pts;
+  });
+  return wSum ? pSum / wSum : null;
+}
+function performanceDiff(pid) {
+  const marks = performance(pid);
+  return marks.filter(m => m.mark === 'star').length - marks.filter(m => m.mark === 'flag').length;
+}
+function performanceScore(pid) {
+  return Math.min(1, Math.max(0, 0.5 + 0.15 * performanceDiff(pid)));
+}
+function blendScore(pid) {
+  const rel = decayedReliability(pid);
+  return 0.7 * (rel === null ? 0.5 : rel) + 0.3 * performanceScore(pid);
+}
+function bumpStreak(pid) {
+  let streak = 0;
+  for (const ev of [...data.events].sort((a, b) => b.date.localeCompare(a.date))) {
+    const e = ev.entries[pid];
+    if (!e || !e.status) continue;
+    if (e.status === 'subSure') streak++; else break;
+  }
+  return streak;
+}
+function suggestOversubscribed(evId, legion, count) {
+  const ev = data.events.find(x => x.id === evId);
+  const inLegion = Object.entries(ev.entries).filter(([, e]) => e.legion === legion && ['full', 'added', 'subSure', 'subUnsure', 'subExtra'].includes(e.status));
+  const cand = inLegion.map(([pid, e]) => data.players.find(p => p.id === pid)).filter(p => p && !rankOf(p));
+  const withInfo = cand.map(p => ({ p, score: blendScore(p.id), streak: bumpStreak(p.id), status: ev.entries[p.id].status }));
+  const byScore = (a, b) => (a.score - b.score) || (performanceDiff(a.p.id) - performanceDiff(b.p.id)) || (b.p.order - a.p.order);
+  const extras = withInfo.filter(x => x.status === 'added' || x.status === 'subExtra').sort(byScore);
+  const unsure = withInfo.filter(x => x.status === 'subUnsure').sort(byScore);
+  const sure = withInfo.filter(x => x.status === 'full' || x.status === 'subSure');
+  const notStreaked = sure.filter(x => x.streak < 3).sort(byScore);
+  const streaked = sure.filter(x => x.streak >= 3).sort(byScore);
+  const pool = [...extras, ...unsure, ...notStreaked, ...streaked];
+  return pool.slice(0, count);
+}
+function suggestUndersubscribed(evId, legion, count) {
+  const ev = data.events.find(x => x.id === evId);
+  const other = legion === 'L1' ? 'L2' : 'L1';
+  const already = new Set(Object.keys(ev.entries).filter(pid => ev.entries[pid].status && ev.entries[pid].legion === legion));
+  const active = data.players.filter(p => !p.left);
+  const wanted = active.filter(p => { const e = ev.entries[p.id]; return e && e.status === 'wanted' && e.legion === legion; });
+  const flexOther = active.filter(p => { const e = ev.entries[p.id]; return e && e.legion === other && e.flex && deployed(e.status); });
+  const untouched = active.filter(p => { const e = ev.entries[p.id]; return !e || !e.status; });
+  const score = p => ({ p, score: blendScore(p.id) });
+  const sortDesc = (a, b) => (b.score - a.score) || (performanceDiff(b.p.id) - performanceDiff(a.p.id)) || (a.p.order - b.p.order);
+  const pool = [
+    ...wanted.map(score).sort(sortDesc),
+    ...flexOther.map(score).sort(sortDesc),
+    ...untouched.map(score).sort(sortDesc)
+  ].filter(x => !already.has(x.p.id));
+  const picked = pool.slice(0, count);
+  picked.forEach(x => { x.vacates = flexOther.includes(x.p) ? other : null; });
+  return picked;
+}
 function performance(pid) {
   const out = [];
   [...data.events].sort((a, b) => a.date.localeCompare(b.date)).forEach(ev => {
@@ -121,7 +185,7 @@ function render() {
       const over = g.f > 30 || g.s > 10;
       return `<span class="${over ? 'bad' : ''}">${l} ${t}: ${g.f}/30 full, ${g.s}/10 sub</span> <span class="${g.r4 ? '' : 'bad'}">R4/R5: ${g.r4}</span>`;
     };
-    h += `<th colspan="2" class="evStart evCol">${esc(ev.type)}<br>${ev.date}<br>${line('L1')}<br>${line('L2')}<br><button type="button" class="exportEvBtn" data-e="${ev.id}">Export list</button></th>`;
+    h += `<th colspan="2" class="evStart evCol"><span class="editEvent" data-e="${ev.id}" title="Click to edit this event">${esc(ev.type)}<br>${ev.date}</span><br>${line('L1')}<br>${line('L2')}<br><button type="button" class="exportEvBtn" data-e="${ev.id}">Export list</button> <button type="button" class="suggestEvBtn" data-e="${ev.id}">Suggestions</button></th>`;
   });
   h += '</tr></thead><tbody>';
   let dividerShown = false;
@@ -306,7 +370,12 @@ $('grid').addEventListener('click', ev => {
     save();
   }
 });
-$('showEvent').onclick = () => { $('eventForm').hidden = !$('eventForm').hidden; };
+$('showEvent').onclick = () => {
+  const f = $('eventForm');
+  if (f.hidden || $('eEditId').value) {
+    f.reset(); $('eEditId').value = ''; $('eSaveBtn').textContent = 'Save event'; f.hidden = false;
+  } else f.hidden = true;
+};
 
 $('playerForm').addEventListener('submit', ev => {
   ev.preventDefault();
@@ -352,8 +421,24 @@ $('pasteForm').addEventListener('submit', ev => {
 
 $('eventForm').addEventListener('submit', ev => {
   ev.preventDefault();
+  const editId = $('eEditId').value;
+  if (editId) {
+    const e = data.events.find(x => x.id === editId);
+    e.type = $('eType').value; e.date = $('eDate').value; e.t1 = $('eT1').value; e.t2 = $('eT2').value;
+    save(); $('eventForm').hidden = true; ev.target.reset(); $('eEditId').value = ''; $('eSaveBtn').textContent = 'Save event';
+    return;
+  }
   data.events.push({ id: 'e' + Date.now(), type: $('eType').value, date: $('eDate').value, t1: $('eT1').value, t2: $('eT2').value, entries: {} });
   save(); scrollGridRight(); ev.target.reset();
+});
+$('grid').addEventListener('click', ev => {
+  const el = ev.target.closest('.editEvent');
+  if (!el) return;
+  const e = data.events.find(x => x.id === el.dataset.e);
+  $('eEditId').value = e.id; $('eType').value = e.type; $('eDate').value = e.date; $('eT1').value = e.t1; $('eT2').value = e.t2;
+  $('eSaveBtn').textContent = 'Save changes';
+  $('eventForm').hidden = false;
+  $('eventForm').scrollIntoView({ block: 'nearest' });
 });
 
 function exportEventList(eid) {
@@ -374,9 +459,40 @@ function exportEventList(eid) {
   a.download = `${ev.type.replace(/\s+/g, '-')}-${ev.date}-signups.txt`;
   a.click();
 }
+function suggestModalHtml(evId) {
+  const ev = data.events.find(x => x.id === evId);
+  return `<h2>Suggestions &mdash; ${esc(ev.type)} (${ev.date})</h2>
+    <div class="row"><label>Legion <select id="sgLegion"><option value="L1">L1 (${ev.t1})</option><option value="L2">L2 (${ev.t2})</option></select></label>
+    <label>Scenario <select id="sgScenario"><option value="over">Legion is oversubscribed (free up space)</option><option value="under">Legion is undersubscribed (fill space)</option></select></label>
+    <label>How many <input id="sgCount" type="number" min="1" value="3" style="width:50px"></label>
+    <button type="button" id="sgGo">Get suggestions</button></div>
+    <div id="sgResults"></div>
+    <div class="modal-actions"><button id="mClose" type="button">Close</button></div>`;
+}
+function resultRow(x, mode) {
+  const p = x.p;
+  const streakNote = x.streak >= 3 ? ' <span class="bad">(bumped 3+ times running)</span>' : '';
+  const vacateNote = x.vacates ? ` &mdash; flexible, would free a spot in ${x.vacates}` : '';
+  return `<tr><td>${esc(p.name)}${rankOf(p) ? ' <span class="tag">' + rankOf(p) + '</span>' : ''}</td><td>${Math.round(x.score * 100)}%</td><td>${mode === 'over' ? (STATUS[x.status] || x.status) : ''}${streakNote}${vacateNote}</td></tr>`;
+}
+function openSuggestModal(evId) {
+  openModal(suggestModalHtml(evId));
+  $('mClose').onclick = closeModal;
+  $('sgGo').onclick = () => {
+    const legion = $('sgLegion').value, mode = $('sgScenario').value, count = Math.max(1, parseInt($('sgCount').value, 10) || 1);
+    const results = mode === 'over' ? suggestOversubscribed(evId, legion, count) : suggestUndersubscribed(evId, legion, count);
+    const label = mode === 'over' ? 'Lowest-priority candidates to move to sub or remove' : 'Best candidates to add, highest first';
+    $('sgResults').innerHTML = results.length
+      ? `<p style="font-size:12px;color:#777;margin:8px 0 2px">${label}. ${mode === 'over' ? 'Players added without asking are considered first, then unsure sign-ups, then everyone else by score.' : 'Wanted and flexible players are prioritised ahead of the score.'}</p>
+         <table><tr><th>Player</th><th>Score</th><th></th></tr>${results.map(x => resultRow(x, mode)).join('')}</table>`
+      : '<p style="font-size:12px;color:#777">No eligible candidates found.</p>';
+  };
+}
 $('grid').addEventListener('click', ev => {
   const btn = ev.target.closest('.exportEvBtn');
-  if (btn) exportEventList(btn.dataset.e);
+  if (btn) { exportEventList(btn.dataset.e); return; }
+  const sgBtn = ev.target.closest('.suggestEvBtn');
+  if (sgBtn) openSuggestModal(sgBtn.dataset.e);
 });
 $('exportBtn').onclick = () => {
   const a = document.createElement('a');

@@ -402,10 +402,13 @@
     },
     {
       "id": "153800416",
-      "name": "Crystal Mage",
-      "oldNames": [],
+      "name": "LoveCrystyRose",
+      "oldNames": [
+        "Crystal Mage"
+      ],
       "rank": "",
-      "order": 50
+      "order": 50,
+      "left": false
     },
     {
       "id": "161015418",
@@ -2143,138 +2146,191 @@
       "id": "e1790752662114",
       "type": "Tri-Alliance",
       "date": "2026-10-03",
-      "t1": "19:00",
-      "t2": "14:00",
+      "t1": "14:00",
+      "t2": "19:00",
       "entries": {
         "11946706": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "56417605": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "66014916": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "78262123": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "84026653": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "locked"
         },
         "95434194": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "109752626": {
-          "legion": "L1",
+          "legion": "L2",
           "status": "full",
-          "flex": true
+          "flex": true,
+          "att": "showed"
         },
         "111456622": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "125216881": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
         },
         "125482666": {
-          "legion": "L2",
-          "status": "subSure"
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
         },
         "127129723": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "127688117": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "135423094": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "135725055": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "143458643": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "147021451": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "149797903": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "151086540": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "151099809": {
-          "legion": "L1",
-          "status": "subSure"
-        },
-        "151198362": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "151247221": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "151362263": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "151652492": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "151755311": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "151771350": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "151820987": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "151833236": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "151935625": {
-          "legion": "L2",
-          "status": "full"
-        },
-        "151935704": {
-          "legion": "L1",
-          "status": "full"
-        },
-        "152132183": {
-          "legion": "L1",
-          "status": "subSure"
-        },
-        "152148288": {
           "legion": "L2",
           "status": "full",
-          "flex": true
+          "att": "showed"
+        },
+        "135725055": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "143458643": {
+          "legion": "L2",
+          "status": "full",
+          "att": "excused"
+        },
+        "147021451": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "149797903": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151086540": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151099809": {
+          "legion": "L2",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "151198362": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151247221": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151362263": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "151411924": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "151546156": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "locked"
+        },
+        "151652492": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151755311": {
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
+        },
+        "151771350": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151820987": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151833236": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "151853523": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "showed"
+        },
+        "151935625": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "151935704": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152132183": {
+          "legion": "L2",
+          "status": "subSure",
+          "att": "showed",
+          "mark": "flag",
+          "comment": "Not listening to instructions"
+        },
+        "152148288": {
+          "legion": "L1",
+          "status": "full",
+          "flex": true,
+          "att": "locked"
         },
         "152197526": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "152345019": {
+          "legion": "L2",
+          "status": "subSure",
+          "att": "locked"
         },
         "152476126": {
           "legion": "L1",
@@ -2284,36 +2340,56 @@
           "comment": ""
         },
         "152591538": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "152706108": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "152853291": {
+          "legion": "L2",
+          "status": "subSure",
+          "att": "locked"
+        },
+        "152885407": {
           "legion": "L1",
-          "status": "subSure"
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "152968133": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "showed"
         },
         "153049583": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "153065582": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "153164232": {
-          "legion": "L2",
-          "status": "subSure"
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
         },
         "153363591": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "locked"
         },
         "153524531": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "153618677": {
           "legion": "L1",
@@ -2323,60 +2399,98 @@
           "comment": ""
         },
         "153800416": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "153819767": {
-          "legion": "L2",
-          "status": "subUnsure"
+          "legion": "L1",
+          "status": "subUnsure",
+          "att": "locked"
         },
         "153934293": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "153953884": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "154032578": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "154214401": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "154327826": {
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
+        },
+        "154425996": {
+          "legion": "L1",
+          "status": "subExtra",
+          "att": "locked"
+        },
+        "154461769": {
           "legion": "L2",
-          "status": "full"
+          "status": "full",
+          "att": "showed"
         },
         "154720900": {
-          "legion": "L1",
-          "status": "subUnsure"
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "showed"
         },
         "154802797": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "155147931": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "155201587": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "156034302": {
-          "legion": "L1",
+          "legion": "L2",
           "status": "subUnsure"
         },
-        "157085857": {
+        "156280228": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "showed"
+        },
+        "156705545": {
           "legion": "L1",
-          "status": "full"
+          "status": "subExtra",
+          "att": "showed"
+        },
+        "157085857": {
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "157591289": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "showed"
         },
         "157731763": {
-          "legion": "L2",
-          "status": "subSure"
+          "legion": "L1",
+          "status": "subSure",
+          "att": "showed"
         },
         "157892805": {
           "legion": "L1",
@@ -2386,68 +2500,98 @@
           "comment": ""
         },
         "158000637": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "159245999": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "flex": false,
+          "att": "showed"
         },
         "159278877": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "159459531": {
-          "legion": "L2",
-          "status": "subSure"
+          "legion": "L1",
+          "status": "subSure",
+          "att": "locked"
         },
         "160097732": {
           "legion": "L1",
-          "status": "full"
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
         },
         "160262224": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "160458305": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "161015418": {
+          "legion": "L2",
+          "status": "subExtra",
+          "att": "showed",
+          "mark": "",
+          "comment": ""
         },
         "161261571": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "161411398": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         },
         "162103804": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "162408116": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
+        },
+        "162703235": {
+          "legion": "L2",
+          "status": "subUnsure",
+          "att": "locked"
         },
         "163375126": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "showed"
         },
         "163913888": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "locked"
         },
         "164307464": {
-          "legion": "L2",
+          "legion": "L1",
           "status": "full"
         },
         "164320240": {
-          "legion": "L1",
-          "status": "full"
+          "legion": "L2",
+          "status": "full",
+          "att": "locked"
         },
         "167680267": {
-          "legion": "L2",
-          "status": "full"
+          "legion": "L1",
+          "status": "full",
+          "att": "showed"
         }
       }
     },
@@ -2596,6 +2740,13 @@
           "mark": "",
           "comment": ""
         },
+        "152132183": {
+          "legion": "L1",
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
         "152148288": {
           "flex": true,
           "legion": "L2",
@@ -2605,9 +2756,20 @@
           "legion": "L1",
           "status": "full"
         },
+        "152345019": {
+          "legion": "L1",
+          "status": "subSure"
+        },
         "152476126": {
           "legion": "L1",
           "status": "full"
+        },
+        "152492338": {
+          "legion": "L1",
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
         },
         "152509095": {
           "legion": "L1",
@@ -2620,6 +2782,10 @@
         "152853291": {
           "legion": "L2",
           "status": "full"
+        },
+        "152968133": {
+          "legion": "L2",
+          "status": "subExtra"
         },
         "153049583": {
           "legion": "L1",
@@ -2664,6 +2830,14 @@
           "legion": "L2",
           "status": "subSure"
         },
+        "154032578": {
+          "legion": "L1",
+          "status": "subExtra"
+        },
+        "154098008": {
+          "legion": "L2",
+          "status": "subExtra"
+        },
         "154214401": {
           "legion": "L1",
           "status": "subSure"
@@ -2676,11 +2850,22 @@
           "legion": "L2",
           "status": "full"
         },
+        "154425996": {
+          "legion": "L1",
+          "status": "subExtra"
+        },
         "154461769": {
           "legion": "L1",
           "status": "full"
         },
         "154720900": {
+          "legion": "L1",
+          "status": "abstain",
+          "att": "",
+          "mark": "",
+          "comment": ""
+        },
+        "154786531": {
           "legion": "L1",
           "status": "withdrew",
           "att": "",
@@ -2690,6 +2875,10 @@
         "154802797": {
           "legion": "L1",
           "status": "subSure"
+        },
+        "155114111": {
+          "legion": "L2",
+          "status": "subExtra"
         },
         "155147931": {
           "legion": "L2",
@@ -2702,6 +2891,21 @@
         "156034302": {
           "legion": "L1",
           "status": "full"
+        },
+        "156280228": {
+          "legion": "L2",
+          "status": "subSure"
+        },
+        "156705545": {
+          "legion": "L2",
+          "status": "subExtra"
+        },
+        "157591289": {
+          "legion": "L2",
+          "status": "subSure",
+          "att": "",
+          "mark": "",
+          "comment": ""
         },
         "157731763": {
           "legion": "L2",
@@ -2728,11 +2932,18 @@
         },
         "160097732": {
           "legion": "L1",
-          "status": "subSure"
+          "status": "withdrew",
+          "att": "",
+          "mark": "",
+          "comment": ""
         },
         "160458305": {
           "legion": "L1",
           "status": "full"
+        },
+        "161015418": {
+          "legion": "L1",
+          "status": "subExtra"
         },
         "161261571": {
           "legion": "L2",
@@ -2750,6 +2961,10 @@
         "162408116": {
           "legion": "L1",
           "status": "full"
+        },
+        "162703235": {
+          "legion": "L1",
+          "status": "subUnsure"
         },
         "163375126": {
           "legion": "L1",
